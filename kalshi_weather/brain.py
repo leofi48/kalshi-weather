@@ -35,7 +35,7 @@ class BrainConfig:
     bankroll: float = 2000.0        # paper bankroll per strategy, for Kelly sizing
     kelly_fraction: float = 0.25
     base_contracts: int = 20
-    max_contracts: int = 200
+    max_contracts: int = 20
 
 
 @dataclass
